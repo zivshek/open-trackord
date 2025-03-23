@@ -1,0 +1,11 @@
+arb-dir: lib/l10n/arb
+template-arb-file: app_en.arb
+synthetic-package: false
+output-dir: lib/l10n/gen_l10n
+output-localization-file: app_localizations.dart
+untranslated-messages-file: lib/l10n/gen_l10n/untranslated.txt
+nullable-getter: false
+supported-locales:
+  - en
+  - zh
+  - zh_Hant
