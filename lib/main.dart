@@ -34,8 +34,7 @@ void main() async {
   await SharedPrefWrapper().init();
   logger.info('Shared preferences init complete. Running app...');
 
-  final repository =
-      RecordsRepository(databaseService, databaseService: databaseService);
+  final repository = RecordsRepository(databaseService);
   await repository.initialize();
 
   final appSettingsState =

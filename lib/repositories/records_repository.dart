@@ -21,7 +21,7 @@ class RecordsRepository {
   final Map<int, List<RecordModel>> _records = {};
   Map<int, int> _totals = {};
 
-  RecordsRepository(this._databaseService, {required databaseService});
+  RecordsRepository(this._databaseService);
 
   Future<void> initialize() async {
     _initialLoaded = false;
