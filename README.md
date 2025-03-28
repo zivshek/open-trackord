@@ -2,6 +2,24 @@
 
 <img src="./assets/icon/icon.png" style="border-radius: 10px;" width="50" height="50" />
 
+This is the source code of the minimalist custom tracking app **Trackord**. You can also install it from the [App Store](https://apps.apple.com/us/app/trackord/id6743145159).
+
+### Environment Setup:
+
+1. This is a **Flutter** project, so you need to install the **Flutter SDK**. Please follow the official [Flutter guide](https://docs.flutter.dev/get-started/install/windows/mobile) to configure your system.
+2. Clone or download this repository and open the folder in **VSCode**.
+3. Run ```flutter pub get``` in the VSCode terminal to fetch dependencies.
+4. Run ```flutter gen-l10n``` in the VSCode terminal to generate localization files.
+5. *[Optional] Run ```dart run flutter_native_splash:create``` in the VSCode terminal to generate a splash screen.*
+6. *[Optional] Run ```dart run flutter_launcher_icons:generate``` in the VSCode terminal to generate the app icon.*
+7. Install a compatible emulator (**Android** or **iOS**) and run the app.
+
+### Auto-generate l10n files when saving .arb files
+- Install [pucelle.run-on-save](https://marketplace.cursorapi.com/items?itemName=pucelle.run-on-save)
+- Copy the following configuration into *VSCode*'s *settings.json*
+
+---------------------------
+
 这是极简风格自定义记录软件Trackord的源码，也可前往[App Store](https://apps.apple.com/us/app/trackord/id6743145159)安装
 
 ### 环境配置:
