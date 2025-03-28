@@ -17,6 +17,17 @@ This is the source code of the minimalist custom tracking app **Trackord**. You 
 ### Auto-generate l10n files when saving .arb files
 - Install [pucelle.run-on-save](https://marketplace.cursorapi.com/items?itemName=pucelle.run-on-save)
 - Copy the following configuration into *VSCode*'s *settings.json*
+    ```json
+    "runOnSave.commands": [
+            {
+                "match": ".arb",
+                "command": "flutter gen-l10n",
+                "runIn": "terminal",
+            },
+        ],
+    "runOnSave.defaultRunIn": "terminal",
+    "runOnSave.onlyRunOnManualSave": true,
+    ```
 
 ---------------------------
 
